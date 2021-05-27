@@ -35,7 +35,7 @@ class App extends Component {
       <div className="App">
         <main>
           <div className="controls">
-            <button> onClick={this.toggleMicrophone}
+            <button onClick={this.toggleMicrophone}>
               {this.state.audio ? 'Stop microphone' : 'Get microphone input'}
             </button>
           </div>
